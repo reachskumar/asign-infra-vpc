@@ -2,14 +2,6 @@
 
 AWS VPC infrastructure with staging and production environments.
 
-## Structure
-
-tf/
-├── modules/
-│   ├── vpc/      # VPC, subnets, gateways
-│   └── bastion/  # SSH jump server
-├── staging/      # Test environment (ap-south-2)
-└── production/   # Live environment (ap-south-1)
 
 ## Prerequisites
 
